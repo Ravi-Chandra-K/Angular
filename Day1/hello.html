@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Title page</title>
+        <style>
+            /* POWER   if mentioned simply, if additional feature is mentioned (#fru>li) then
+            power goes to it directly, if both class and id has power then => [[ id > class ]]
+            . > # > li
+            class > id > name 
+            100 > 10 > 1 */
+            
+            /* class */
+            .fruits{background-color: blue;color: aliceblue;}
+            /* id */
+            #fru{    color: brown;  }
+            /* name */
+            li{   color: yellow;  }
+            
+            #nonveg{
+                background-color: rgb(14, 14, 15);
+                color: rgb(161, 204, 242);
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Fruits</h1>
+        <ol class="fruits" id="fru">
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Orange</li>
+            <li>Kiwi</li>
+            <li>Cherry</li>
+        </ol>
+
+        <h1>Non-Veg</h1>
+        <ul id="nonveg">
+            <li>Liver</li>
+            <li>Penguin</li>
+            <li>Chicken</li>
+            <li>Mutton</li>
+            <li>Fish</li>
+        </ul>
+    </body>
+</html>
+
+
