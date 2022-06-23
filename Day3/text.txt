@@ -1,0 +1,13 @@
+Except for arrow functions, they will be kept in stack only after calling the function
+
+But for arrow functions, just after declaration , they are sent to the stack
+So better performance (already loaded....)
+=> Only most frequently used functions are stored in stacks  (storage issue, to boost performance)
+
+
+
+// Browser will understand only js 
+So typescript need to be transpiled to js 
+
+// ngclient will help to convert ts to js
+// If you dont have ngclient and want to work in ts, we use (ts compiler) npm-node package manager....
